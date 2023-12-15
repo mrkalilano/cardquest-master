@@ -8,3 +8,13 @@ class TrainerForm(ModelForm):
         model = Trainer
         fields = "__all__"
         
+class PokemonCardForm(ModelForm):
+    class Meta:
+        model = PokemonCard
+        fields = '__all__'
+            
+            
+class CollectionForm(ModelForm):
+    class Meta:
+        model = Collection
+        fields = '__all__'
